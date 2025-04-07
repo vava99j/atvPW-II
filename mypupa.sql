@@ -1,6 +1,6 @@
 create database Agenda;
 use Agenda;
-create table tabela(
+create table tarefa(
 	id_tabela int auto_increment primary key,
 	id_tarefa int,
 	descricao_tarefa varchar(100) not null,
